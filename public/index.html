@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Zénite - PWA</title>
+  <link rel="manifest" href="manifest.json" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="application-neme" content="RedShared" />
+  <meta name="msapplication-name" content="RedShared" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/main.js"></script>
+</head>
+
+<body>
+  <div class="app">
+    <div class="alert">
+      <button class="btn-install" onclick="installApp()" id="setup_button">Instala redshare</button>
+    </div>
+    <div id="audio"></div>
+    <a href="#" onclick="registrarNotificacoes()">Notifica-me quando há uma nova</a>
+    
+    <div id="render-user"></div>
+  </div>
+</body>
+
+</html>
